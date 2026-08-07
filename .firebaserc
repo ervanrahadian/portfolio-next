@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "ervanrahadian-id"
+  },
+  "targets": {
+    "ervanrahadian-id": {
+      "hosting": {
+        "production": [
+          "ervanrahadian"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
