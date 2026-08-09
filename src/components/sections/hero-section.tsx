@@ -22,7 +22,7 @@ export function HeroSection() {
     <section
       id="home"
       aria-label="Introduction"
-      className="relative flex min-h-svh animate-aurora items-center overflow-hidden bg-linear-45 from-brand-600 via-violet-600 to-accent-500 bg-size-[300%_300%]"
+      className="relative flex min-h-svh animate-aurora items-center overflow-hidden bg-linear-90 from-brand-600 via-violet-600 to-accent-500 bg-size-[300%_300%]"
     >
       <div
         aria-hidden
@@ -91,7 +91,7 @@ export function HeroSection() {
         <motion.ul
           variants={item}
           aria-label="Technologies I work with"
-          className="mt-12 flex flex-wrap items-center justify-center gap-3"
+          className="mt-16 flex flex-wrap items-center justify-center gap-3"
         >
           {skills.map(({ name, icon: Icon, color }, index) => (
             <li
