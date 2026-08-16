@@ -19,8 +19,8 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} — ${siteConfig.role}`,
-    template: `%s — ${siteConfig.name}`,
+    default: `${siteConfig.name}: ${siteConfig.pageTitle}`,
+    template: `%s: ${siteConfig.name}`,
   },
   description: siteConfig.description,
   keywords: [...siteConfig.keywords],
@@ -33,13 +33,13 @@ export const metadata: Metadata = {
     locale: siteConfig.locale,
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: `${siteConfig.name} — ${siteConfig.role}`,
+    title: `${siteConfig.name}: ${siteConfig.pageTitle}`,
     description: siteConfig.description,
     images: [{ url: siteConfig.logo, alt: siteConfig.name }],
   },
   twitter: {
     card: "summary",
-    title: `${siteConfig.name} — ${siteConfig.role}`,
+    title: `${siteConfig.name}: ${siteConfig.pageTitle}`,
     description: siteConfig.description,
     images: [siteConfig.logo],
   },

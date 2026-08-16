@@ -2,6 +2,7 @@ export const siteConfig = {
   name: "Ervan Rahadian",
   fullName: "Ervan Rahadian Hakim",
   role: "Software Engineer",
+  pageTitle: "Personal Website",
   shortName: "ER",
   url: "https://ervanrahadian.web.app",
   locale: "en-US",

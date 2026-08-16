@@ -1,4 +1,4 @@
-# Ervan Rahadian — Personal Website
+# Ervan Rahadian: Personal Website
 
 Live site: [ervanrahadian.web.app](https://ervanrahadian.web.app)
 
